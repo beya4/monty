@@ -3,14 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /**
  * tokenize - split the buf and store it in an array
  * @buf: buffer to be split
- * @arr: array buffer to be store in
+ * @arr: array buffer to be stored in
  * Return: Length of the array
  */
-
 void tokenize(char *buf, char **arr)
 {
 arr[0] = strtok(buf, " \t\r\n");
